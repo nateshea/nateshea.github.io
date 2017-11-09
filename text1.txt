@@ -1,0 +1,3 @@
+This is the text inside text1.txt
+TESTING
+This is for testing adding text to page from a button.
