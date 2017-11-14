@@ -5,10 +5,14 @@
     <title>Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Roboto|Slabo+27px" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/32988a646f.js"></script>
+    
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -16,7 +20,7 @@
     <div>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             
-            <a class="navbar-brand" href="#">Nathan Shea</a>
+            <a class="navbar-brand acme" href="#">Nathan Shea</a>
             
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -40,9 +44,10 @@
         </nav>
     </div>
 
-    <div id="intro" class="container-fluid">
-        <h4>Wayne State University</h4>
-        <p>Bachelor of Science in Computer Science</p>
+    <div id="intro" class="container-fluid"><b>
+        <h3 class="slabo">Bachelor of Science in Computer Science</h3>
+        <p class="roboto">Wayne State University</p></b>
+
     </div>
 
     <!-- Section 1 -->
@@ -165,9 +170,11 @@
     </div>
 
     <!-- Footer -->
-    <div id="footer" class="container text-right" style="background-color:lightseagreen">
-        <a href="https://www.linkedin.com/in/nathan-shea" class="btn"><p class="text-white">LinkedIn</p></a>
-        <a href="https://github.com/nateshea" class="btn"><p class="text-white">GitHub</p></a>        
+    <div id="footer" class="container-fluid text-right" style="background-color:lightseagreen">
+
+        <a href="https://www.linkedin.com/in/nathan-shea"><i class="fa fa-2x fa-linkedin-square pad"></i></a>
+        <a href="https://github.com/nateshea"><i class="fa fa-2x fa-github pad"></i></a>
+        
     </div>
 
 </body>
@@ -189,5 +196,11 @@
     }
     body{
         padding-top: 70px;
+    }
+    .pad{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
 </style>
