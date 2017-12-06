@@ -8,3 +8,20 @@
 .acme{
     font-family: 'Acme', sans-serif; 
 }
+.lipad{
+    margin: 3px;
+}
+.tpad{
+    padding-top: 70px;
+}
+.pad{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+/*
+.jumbotron{
+    background-color: lightseagreen !important;
+}
+*/
